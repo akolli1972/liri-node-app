@@ -74,19 +74,19 @@ function bandsInTown() {
       });
     });
 }
-// function omdb() {
-//   axios
-//     .get(`http://www.omdbapi.com/?apikey=trilogy&t=${query || "mr nobody"}`)
-//     .then(function(response) {
-//       // console.log(response.data);
-//       console.log(response.data.Title);
-//       console.log(response.data.Actors);
-//       console.log(response.data.Rated);
-//       console.log(response.data.Language);
-//       console.log(response.data.Country);
-//       console.log(response.data.imdbRating);
-//       console.log(response.data.Plot);
-//       console.log(response.data.Year);
-//       //   console.log(response.data);
-//     });
-// }
+function omdb() {
+  axios
+    .get(`http://www.omdbapi.com/?apikey=trilogy&t=${query || "mr nobody"}`)
+    .then(function(response) {
+      // console.log(response.data);
+      console.log(response.data.Title);
+      console.log(response.data.Actors);
+      console.log(response.data.Rated);
+      console.log(response.data.Language);
+      console.log(response.data.Country);
+      console.log(response.data.imdbRating);
+      console.log(response.data.Plot);
+      console.log(response.data.Year);
+      //   console.log(response.data);
+    });
+}
