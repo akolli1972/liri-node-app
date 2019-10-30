@@ -12,6 +12,6 @@ Moment.Js to get the date in required format.
 
 Three screen shots have been shown to retrieve data about
 
-- bands in Town-Name, venue and date
-- Spotify-A-song- given a song, data retrieved is Artist, song name, preview link and album name.
-- Movie-name-given a movie name, information on title, year of the movie, IMDB rating, Country, Language, Plot and actors data is retrieved.
+- Screenshot2 is Movie-name-given a movie name, information on title, year of the movie, IMDB rating, Country, Language, Plot and actors data is retrieved.
+- Screenshot3 - bands in Town-Name, venue and date
+- Screenshot4- Spotify-A-song- given a song, data retrieved is Artist, song name, preview link and album name.
